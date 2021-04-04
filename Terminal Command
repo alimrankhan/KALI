@@ -1,0 +1,2 @@
+#sudo -i or #sudo su -> Root User
+#passwd -> Change password, #passwd [username] //root
